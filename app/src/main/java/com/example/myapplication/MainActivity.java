@@ -34,16 +34,24 @@ public class MainActivity extends AppCompatActivity {
 
                         ImageView img = findViewById(R.id.imgAvatar);
 
-                        switch (imgId) {
-                            case R.id.img0: img.setImageResource(R.drawable.flag_00); break;
-                            case R.id.img1: img.setImageResource(R.drawable.flag_01); break;
-                            case R.id.img2: img.setImageResource(R.drawable.flag_02); break;
-                            case R.id.img3: img.setImageResource(R.drawable.flag_03); break;
-                            case R.id.img4: img.setImageResource(R.drawable.flag_04); break;
-                            case R.id.img5: img.setImageResource(R.drawable.flag_05); break;
-                            case R.id.img6: img.setImageResource(R.drawable.flag_06); break;
-                            case R.id.img7: img.setImageResource(R.drawable.flag_07); break;
-                            case R.id.img8: img.setImageResource(R.drawable.flag_08); break;
+                        if (imgId == R.id.img0) {
+                            img.setImageResource(R.drawable.flag_00);
+                        } else if (imgId == R.id.img1) {
+                            img.setImageResource(R.drawable.flag_01);
+                        } else if (imgId == R.id.img2) {
+                            img.setImageResource(R.drawable.flag_02);
+                        } else if (imgId == R.id.img3) {
+                            img.setImageResource(R.drawable.flag_03);
+                        } else if (imgId == R.id.img4) {
+                            img.setImageResource(R.drawable.flag_04);
+                        } else if (imgId == R.id.img5) {
+                            img.setImageResource(R.drawable.flag_05);
+                        } else if (imgId == R.id.img6) {
+                            img.setImageResource(R.drawable.flag_06);
+                        } else if (imgId == R.id.img7) {
+                            img.setImageResource(R.drawable.flag_07);
+                        } else if (imgId == R.id.img8) {
+                            img.setImageResource(R.drawable.flag_08);
                         }
                     }
                 }
