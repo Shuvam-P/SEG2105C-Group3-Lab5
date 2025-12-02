@@ -34,7 +34,6 @@ public class MainActivity extends AppCompatActivity {
 
                         ImageView img = findViewById(R.id.imgAvatar);
 
-                        // --- DO NOT CHANGE THE FORMAT OF THIS IF-ELSE CHAIN (as requested) ---
                         if (imgId == R.id.img0) {
                             img.setImageResource(R.drawable.flag_00);
                         } else if (imgId == R.id.img1) {
