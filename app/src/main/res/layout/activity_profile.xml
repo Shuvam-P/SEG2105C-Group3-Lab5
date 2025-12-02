@@ -19,17 +19,17 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_00"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
         <ImageView android:id="@+id/img1"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_01"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
         <ImageView android:id="@+id/img2"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_02"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
     </TableRow>
 
     <TableRow>
@@ -37,17 +37,17 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_03"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
         <ImageView android:id="@+id/img4"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_04"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
         <ImageView android:id="@+id/img5"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_05"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
     </TableRow>
 
     <TableRow>
@@ -55,17 +55,17 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_06"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
         <ImageView android:id="@+id/img7"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_07"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
         <ImageView android:id="@+id/img8"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:src="@drawable/flag_08"
-            android:onClick="SetTeamIcon"/>
+            android:onClick="setTeamIcon"/>
     </TableRow>
 
 </TableLayout>

@@ -60,13 +60,13 @@ public class MainActivity extends AppCompatActivity {
     }
 
     // --- Open the Avatar Selection Activity ---
-    public void OnSetAvatarButton(View v) {
+    public void onSetAvatarButton(View v) {
         Intent intent = new Intent(this, ProfileActivity.class);
         avatarLauncher.launch(intent);
     }
 
     // --- Open in Google Maps ---
-    public void OnOpenInGoogleMaps(View v) {
+    public void onOpenInGoogleMaps(View v) {
         EditText postal = findViewById(R.id.editPostal);
         String address = postal.getText().toString();
 

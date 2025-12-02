@@ -14,7 +14,7 @@ public class ProfileActivity extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
     }
 
-    public void SetTeamIcon(View v) {
+    public void setTeamIcon(View v) {
         Intent result = new Intent();
         result.putExtra("img_id", v.getId());
         setResult(RESULT_OK, result);
